@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Raj Rana",
+  title: "Hi all, I'm Raj",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "🚀 Architecting web and mobile realms with JavaScript, React.js, Node.js, and enchanting frameworks. Let's innovate!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1g5f8DJTaSqHldnExzCIFoAaZYtCnNyplhj_1sP4MLHE/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/rajrana437",
+  linkedin: "https://www.linkedin.com/in/raj-rana-a9b8a5138/",
+  gmail: "rajrana437@gmail.com",
+  gitlab: "",
+  facebook: "https://www.facebook.com/raj.rana.9235199/",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Single Page Applications ( SPA ) Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase / AWS / Azure"
     )
   ],
 
@@ -126,23 +126,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Fanshawe College",
+      logo: require("./assets/images/fanshawe-college-logo-7837AF18B8-seeklogo.com.png"),
+      subHeader: "Mobile Application Development",
+      duration: "September 2022 - December 2023",
+      desc: "Attained post-grad certificate in Mobile App Dev, mastering Java, Swift, Kotlin, and UX/UI design, plus app deployment, project management, and monetization savvy.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed post-graduate certificate program in Mobile Application Development.",
+        "Gained proficiency in Java, Swift, Kotlin, and hybrid app development frameworks like React Native.",
+        "Developed understanding of mobile interface design, user experience (UX), usability testing, information security and data management within mobile application development.",
+        "Trained in app deployment strategies, project management, app monetization strategies, and understanding the mobile app market."
+
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "SITRC College",
+      logo: require("./assets/images/sitrc.jpeg"),
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "September 2016 - April 2020",
+      desc: "Attained holistic computer education encompassing systems, engineering, programming prowess in C++, Java, Python, and adeptness in architecture, software, algorithms, and networks.",
+      descBullets: ["Acquired comprehensive education in computer systems and engineering principles.",
+        "Proficiency in programming languages such as C++, Java, Python.",
+        "Understanding of computer architecture, hardware design, software development, and software engineering principles.",
+        "Ability to design and implement algorithms and data structures, operate systems and network protocols."
+      ]
     }
   ]
 };
@@ -154,11 +161,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
@@ -174,29 +181,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "React Native Developer - Intern",
+      company: "AIM Colors",
+      companylogo: require("./assets/images/aims.avif"),
+      date: "Jan 2023 - Mar 2023",
+      desc: "Designed and coded user-friendly cross-platform mobile apps, integrating Redux for state, conducting tests, and collaborating for seamless API integration.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed cross-platform mobile apps for iOS and Android, translating wireframes into user-friendly interfaces.",
+        "Wrote clean code, used Redux for state management, and integrated third-party libraries.",
+        "Conducted unit and integration tests, collaborating with backend developers for RESTful API integration.",
+        "Contributed to planning sessions, staying updated with the latest React Native trends.",        
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "iPangram",
+      companylogo: require("./assets/images/ipangram.webp"),
+      date: "Feb 2021 - Aug 2022",
+      desc: "Led end-to-end CRM project; React UIs, Node.js backend, GraphQL integration, microservices, CI/CD.",
+      descBullets: [
+        "Integral role in developing and maintaining a dynamic CRM project, managing frontend to backend development.",
+        "Developed responsive and interactive user interfaces using React.js.",
+        "Utilized Node.js and Sequelize MySQL for backend operations and efficient database management.",
+        "Resolved technical issues, optimized app performance, and ensured code quality through rigorous testing."
+      ]
     }
   ]
 };
@@ -206,7 +214,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,25 +224,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/surveyBooker.jpeg"),
+      projectName: "Survey Booker",
+      projectDesc: "Survey Booker is ISO 27001 Information Management Security certified as well as certified carbon neutral.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://surveybooker.co.uk/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/aims.avif"),
+      projectName: "AIMS",
+      projectDesc: "Press-on nails that can be instantly customized from a mobile app",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.aimcolours.com/"
         }
       ]
     }
@@ -252,51 +260,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Responsive Web Design",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Learn Web Dev: HTML/CSS, Build Apps, Responsive Design, Layout Techniques.",
+      image: require("./assets/images/freeCodeCamp.png"),
+      imageAlt: "FreecodeCamp Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.freecodecamp.org/certification/fcc83592d62-9c7c-4efc-8fb4-e655ee69d3ed/responsive-web-design"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to Git and GitHub",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Git & GitHub: Exploring Version Control and Collaborative Development Platform",
+      image: require("./assets/images/google.webp"),
+      imageAlt: "google logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/SR9VWE3FQ8EC"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Google Cloud Platform Fundamentals: Core Infrastructure",
+      subtitle: "Google Cloud Platform: Core infrastructure explored for a strong cloud foundation. Learn foundational concepts.",
+      image: require("./assets/images/gc2.png"),
+      imageAlt: "google cloud logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/FQTQYMMBRPN4" }
       ]
     }
   ],
@@ -324,7 +320,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +339,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +352,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 519-701-9301",
+  email_address: "rajrana437@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "RajRana9", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
