@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -258,48 +258,82 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [
-    {
-      title: "Responsive Web Design",
-      subtitle:
-        "Learn Web Dev: HTML/CSS, Build Apps, Responsive Design, Layout Techniques.",
-      image: require("./assets/images/freeCodeCamp.png"),
-      imageAlt: "FreecodeCamp Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.freecodecamp.org/certification/fcc83592d62-9c7c-4efc-8fb4-e655ee69d3ed/responsive-web-design"
-        }
-      ]
-    },
-    {
-      title: "Introduction to Git and GitHub",
-      subtitle:
-        "Git & GitHub: Exploring Version Control and Collaborative Development Platform",
-      image: require("./assets/images/google.webp"),
-      imageAlt: "google logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/SR9VWE3FQ8EC"
-        }
-      ]
-    },
-
-    {
-      title: "Google Cloud Platform Fundamentals: Core Infrastructure",
-      subtitle: "Google Cloud Platform: Core infrastructure explored for a strong cloud foundation. Learn foundational concepts.",
-      image: require("./assets/images/gc2.png"),
-      imageAlt: "google cloud logo",
-      footerLink: [
-        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/FQTQYMMBRPN4" }
-      ]
-    }
-  ],
+    achievementsCards: [
+      {
+        title: "Responsive Web Design",
+        subtitle:
+          "Learn Web Dev: HTML/CSS, Build Apps, Responsive Design, Layout Techniques.",
+        image: require("./assets/images/freeCodeCamp.png"),
+        imageAlt: "FreecodeCamp Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.freecodecamp.org/certification/fcc83592d62-9c7c-4efc-8fb4-e655ee69d3ed/responsive-web-design"
+          }
+        ]
+      },
+      {
+        title: "Introduction to Git and GitHub",
+        subtitle:
+          "Git & GitHub: Exploring Version Control and Collaborative Development Platform",
+        image: require("./assets/images/google.webp"),
+        imageAlt: "google logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.coursera.org/account/accomplishments/certificate/SR9VWE3FQ8EC"
+          }
+        ]
+      },
+      {
+        title: "Google Cloud Platform Fundamentals: Core Infrastructure",
+        subtitle: "Google Cloud Platform: Core infrastructure explored for a strong cloud foundation. Learn foundational concepts.",
+        image: require("./assets/images/gc2.png"),
+        imageAlt: "google cloud logo",
+        footerLink: [
+          { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/FQTQYMMBRPN4" }
+        ]
+      },
+      {
+        title: "AWS Certified Solutions Architect – Associate",
+        subtitle: "Designing and deploying scalable systems on AWS. Mastering cloud architecture.",
+        image: require("./assets/images/aws_logo.png"),
+        imageAlt: "AWS Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.aws.training/Certification"
+          }
+        ]
+      },
+      {
+        title: "Certified Kubernetes Administrator (CKA)",
+        subtitle: "Proficient in managing Kubernetes clusters and understanding core concepts.",
+        image: require("./assets/images/kubernetes_logo.png"),
+        imageAlt: "Kubernetes Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.cncf.io/certification/cka/"
+          }
+        ]
+      },
+      {
+        title: "HashiCorp Certified: Terraform Associate",
+        subtitle: "Expertise in infrastructure as code using HashiCorp Terraform for cloud provisioning.",
+        image: require("./assets/images/hashicorp_logo.png"),
+        imageAlt: "HashiCorp Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.hashicorp.com/certification/terraform-associate"
+          }
+        ]
+      }
+    ]
+  ,
   display: true // Set false to hide this section, defaults to true
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
@@ -308,20 +342,45 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@rajrana437/it-industry-the-bubble-finally-burst-34414c7c77a7",
+      title: "IT Industry: The Bubble Finally Burst",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "An exploration of the IT industry's turbulent journey and its future after the bubble burst."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@rajrana437/yet-another-rideshare-app-reinvented-cfcf63fd6b02",
+      title: "Yet Another Rideshare App: Reinvented",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A deep dive into reinventing rideshare apps and lessons from the industry."
+    },
+    {
+      url: "https://medium.com/@rajrana437/global-cooling-a-utopian-future-fa8a6acffd8b",
+      title: "Global Cooling: A Utopian Future",
+      description:
+        "A thought-provoking look at global cooling and its implications for the future."
+    },
+    {
+      url: "https://medium.com/@rajrana437/the-smartphone-paradox-connected-yet-isolated-dce1f454d5c3",
+      title: "The Smartphone Paradox: Connected Yet Isolated",
+      description:
+        "How smartphones have changed human interaction, for better or worse."
+    },
+    {
+      url: "https://medium.com/@rajrana437/life-hacked-190953f3072b",
+      title: "Life, Hacked",
+      description:
+        "Exploring life hacks and how they've transformed modern life."
+    },
+    {
+      url: "https://medium.com/@rajrana437/open-source-the-heart-of-innovation-8476b1b03ee1",
+      title: "Open Source: The Heart of Innovation",
+      description:
+        "Why open source is the driving force behind technological innovation."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set true to display this section
 };
+
 
 // Talks Sections
 
