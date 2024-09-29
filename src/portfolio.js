@@ -197,7 +197,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
-      date: "Feb 2021 - Aug 2022",
+      date: "Feb 2019 - Aug 2022",
       desc: "Led end-to-end CRM project; React UIs, Node.js backend, GraphQL integration, microservices, CI/CD.",
       descBullets: [
         "Integral role in developing and maintaining a dynamic CRM project, managing frontend to backend development.",
