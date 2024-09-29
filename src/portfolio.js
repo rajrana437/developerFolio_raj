@@ -21,14 +21,15 @@ const illustration = {
 
 const greeting = {
   username: "Raj Rana",
-  title: "Hi all, I'm Raj",
+  title: "Hello, I'm Raj",
   subTitle: emoji(
-    "🚀 Architecting web and mobile realms with JavaScript, React.js, Node.js, and enchanting frameworks. Let's innovate!"
+    "🚀 Full Stack Developer specializing in architecting web and mobile applications with JavaScript, React, Node.js, and modern technologies. Let's create impactful solutions together!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1g5f8DJTaSqHldnExzCIFoAaZYtCnNyplhj_1sP4MLHE/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
+
 
 // Social Media Links
 
@@ -38,7 +39,7 @@ const socialMediaLinks = {
   gmail: "rajrana437@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/raj.rana.9235199/",
-  medium: "",
+  medium: "https://medium.com/@rajrana437",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -48,15 +49,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "FULL STACK DEVELOPER WITH A PASSION FOR SCALABLE, EFFICIENT, AND INNOVATIVE SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build responsive, dynamic, and intuitive user interfaces for web and mobile applications."
     ),
-    emoji("⚡ Single Page Applications ( SPA ) Stacks"),
+    emoji("⚡ Develop and maintain scalable Single Page Applications (SPA) with modern frameworks."),
     emoji(
-      "⚡ Integration of third party services such as Firebase / AWS / Azure"
+      "⚡ Integrate cloud services (AWS, Firebase, Azure) to enhance application functionality and performance."
+    ),
+    emoji(
+      "⚡ Design and implement backend services, ensuring security and performance through microservices and serverless architectures."
     )
   ],
 
@@ -181,16 +185,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "React Native Developer - Intern",
-      company: "AIM Colors",
+      role: "React Native Developer",
+      company: "AIM Colours",
       companylogo: require("./assets/images/aims.avif"),
       date: "Jan 2023 - Mar 2023",
-      desc: "Designed and coded user-friendly cross-platform mobile apps, integrating Redux for state, conducting tests, and collaborating for seamless API integration.",
+      desc: "Collaborated on beauty tech solutions, delivering cross-platform mobile apps with React Native and Redux.",
       descBullets: [
-        "Developed cross-platform mobile apps for iOS and Android, translating wireframes into user-friendly interfaces.",
-        "Wrote clean code, used Redux for state management, and integrated third-party libraries.",
-        "Conducted unit and integration tests, collaborating with backend developers for RESTful API integration.",
-        "Contributed to planning sessions, staying updated with the latest React Native trends.",        
+        "Developed cross-platform apps with React Native, integrating Redux and Redux-Saga.",
+        "Utilized TypeScript for enhanced scalability and maintainability.",
+        "Collaborated with backend developers for RESTful API and GraphQL integration.",
+        "Conducted unit and integration testing using Jest and React Testing Library.",
+        "Integrated AWS Amplify for authentication, storage, and push notifications.",
+        "Worked with Firebase Cloud Messaging for real-time notifications.",
+        "Contributed to the CI/CD pipeline using GitLab CI for automated deployments."
       ]
     },
     {
@@ -198,15 +205,20 @@ const workExperiences = {
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
       date: "Feb 2019 - Aug 2022",
-      desc: "Led end-to-end CRM project; React UIs, Node.js backend, GraphQL integration, microservices, CI/CD.",
+      desc: "Led development of CRM project using React.js, Node.js, GraphQL, and microservices architecture.",
       descBullets: [
-        "Integral role in developing and maintaining a dynamic CRM project, managing frontend to backend development.",
-        "Developed responsive and interactive user interfaces using React.js.",
-        "Utilized Node.js and Sequelize MySQL for backend operations and efficient database management.",
-        "Resolved technical issues, optimized app performance, and ensured code quality through rigorous testing."
+        "Developed responsive UIs using React.js and Next.js, improving SEO with server-side rendering.",
+        "Built scalable RESTful and GraphQL APIs using Node.js, Express.js, and Sequelize with MySQL.",
+        "Designed secure authentication systems with OAuth2 and JWT.",
+        "Implemented microservices architecture with Docker and Kubernetes.",
+        "Utilized AWS services (EC2, S3, CloudFront, Route 53) for deployment and content delivery.",
+        "Integrated AWS RDS for high availability and automatic backups.",
+        "Developed real-time chat with Firebase and WebSockets for enhanced communication.",
+        "Led CI/CD pipeline setup using Jenkins and AWS CodePipeline for continuous delivery."
       ]
     }
   ]
+
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -260,41 +272,6 @@ const achievementSection = {
 
     achievementsCards: [
       {
-        title: "Responsive Web Design",
-        subtitle:
-          "Learn Web Dev: HTML/CSS, Build Apps, Responsive Design, Layout Techniques.",
-        image: require("./assets/images/freeCodeCamp.png"),
-        imageAlt: "FreecodeCamp Logo",
-        footerLink: [
-          {
-            name: "Certification",
-            url: "https://www.freecodecamp.org/certification/fcc83592d62-9c7c-4efc-8fb4-e655ee69d3ed/responsive-web-design"
-          }
-        ]
-      },
-      {
-        title: "Introduction to Git and GitHub",
-        subtitle:
-          "Git & GitHub: Exploring Version Control and Collaborative Development Platform",
-        image: require("./assets/images/google.webp"),
-        imageAlt: "google logo",
-        footerLink: [
-          {
-            name: "Certification",
-            url: "https://www.coursera.org/account/accomplishments/certificate/SR9VWE3FQ8EC"
-          }
-        ]
-      },
-      {
-        title: "Google Cloud Platform Fundamentals: Core Infrastructure",
-        subtitle: "Google Cloud Platform: Core infrastructure explored for a strong cloud foundation. Learn foundational concepts.",
-        image: require("./assets/images/gc2.png"),
-        imageAlt: "google cloud logo",
-        footerLink: [
-          { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/FQTQYMMBRPN4" }
-        ]
-      },
-      {
         title: "AWS Certified Solutions Architect – Associate",
         subtitle: "Designing and deploying scalable systems on AWS. Mastering cloud architecture.",
         image: require("./assets/images/aws_logo.png"),
@@ -328,6 +305,41 @@ const achievementSection = {
             name: "Certification",
             url: "https://www.hashicorp.com/certification/terraform-associate"
           }
+        ]
+      },
+      {
+        title: "Responsive Web Design",
+        subtitle:
+          "Learn Web Dev: HTML/CSS, Build Apps, Responsive Design, Layout Techniques.",
+        image: require("./assets/images/freeCodeCamp.png"),
+        imageAlt: "FreecodeCamp Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.freecodecamp.org/certification/fcc83592d62-9c7c-4efc-8fb4-e655ee69d3ed/responsive-web-design"
+          }
+        ]
+      },
+      {
+        title: "Introduction to Git and GitHub",
+        subtitle:
+          "Git & GitHub: Exploring Version Control and Collaborative Development Platform",
+        image: require("./assets/images/google.webp"),
+        imageAlt: "google logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://www.coursera.org/account/accomplishments/certificate/SR9VWE3FQ8EC"
+          }
+        ]
+      },
+      {
+        title: "Google Cloud Platform Fundamentals: Core Infrastructure",
+        subtitle: "Google Cloud Platform: Core infrastructure explored for a strong cloud foundation. Learn foundational concepts.",
+        image: require("./assets/images/gc2.png"),
+        imageAlt: "google cloud logo",
+        footerLink: [
+          { name: "Certification", url: "https://www.coursera.org/account/accomplishments/certificate/FQTQYMMBRPN4" }
         ]
       }
     ]
