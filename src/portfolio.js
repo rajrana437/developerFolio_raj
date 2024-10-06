@@ -26,7 +26,7 @@ const greeting = {
     "🚀 Full Stack Developer specializing in architecting web and mobile applications with JavaScript, React, Node.js, and modern technologies. Let's create impactful solutions together!"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1g5f8DJTaSqHldnExzCIFoAaZYtCnNyplhj_1sP4MLHE/edit?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
