@@ -26,7 +26,7 @@ const greeting = {
     "🚀 Full Stack Developer specializing in architecting web and mobile applications with JavaScript, React, Node.js, and modern technologies. Let's create impactful solutions together!"
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1_VBnXKh8W-O6ibHiEenQe7YGNJ7aIUNP0anllgjcuG8/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -182,22 +182,23 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "React Native Developer",
+      role: "React Native Developer Intern",
       company: "AIM Colours",
       companylogo: require("./assets/images/aims.avif"),
       date: "Jan 2023 - Mar 2023",
-      desc: "Collaborated on beauty tech solutions, delivering cross-platform mobile apps with React Native and Redux.",
+      desc: "Collaborated on beauty tech solutions, delivering cross-platform mobile apps with React Native, Redux, and Redux-Saga.",
       descBullets: [
-        "Developed cross-platform apps with React Native, integrating Redux and Redux-Saga.",
+        "Developed cross-platform apps with React Native, integrating Redux for state management and Redux-Saga for handling side effects.",
         "Utilized TypeScript for enhanced scalability and maintainability.",
         "Collaborated with backend developers for RESTful API and GraphQL integration.",
-        "Conducted unit and integration testing using Jest and React Testing Library.",
-        "Integrated AWS Amplify for authentication, storage, and push notifications.",
-        "Worked with Firebase Cloud Messaging for real-time notifications.",
-        "Contributed to the CI/CD pipeline using GitLab CI for automated deployments."
+        "Conducted unit and integration tests using Jest and React Testing Library for robust app performance.",
+        "Integrated AWS Amplify for seamless authentication, data storage, and push notifications.",
+        "Worked with Firebase Cloud Messaging for real-time notifications and enhanced user engagement.",
+        "Collaborated with UI/UX designers to ensure design consistency using Styled Components.",
+        "Contributed to the CI/CD pipeline using GitLab CI for automated builds and deployments."
       ]
     },
     {
@@ -205,21 +206,44 @@ const workExperiences = {
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
       date: "Feb 2019 - Aug 2022",
-      desc: "Led development of CRM project using React.js, Node.js, GraphQL, and microservices architecture.",
+      desc: "Led development of CRM project using React.js, Node.js, GraphQL, and microservices architecture to deliver scalable, high-performing applications.",
       descBullets: [
-        "Developed responsive UIs using React.js and Next.js, improving SEO with server-side rendering.",
-        "Built scalable RESTful and GraphQL APIs using Node.js, Express.js, and Sequelize with MySQL.",
-        "Designed secure authentication systems with OAuth2 and JWT.",
-        "Implemented microservices architecture with Docker and Kubernetes.",
-        "Utilized AWS services (EC2, S3, CloudFront, Route 53) for deployment and content delivery.",
-        "Integrated AWS RDS for high availability and automatic backups.",
-        "Developed real-time chat with Firebase and WebSockets for enhanced communication.",
-        "Led CI/CD pipeline setup using Jenkins and AWS CodePipeline for continuous delivery."
+        "Spearheaded frontend and backend development for a dynamic CRM project, improving SEO with server-side rendering using React.js and Next.js.",
+        "Built and optimized scalable RESTful and GraphQL APIs using Node.js, Express.js, and Sequelize with MySQL.",
+        "Designed and implemented secure authentication systems using OAuth2 and JWT for token-based authentication.",
+        "Introduced microservices architecture using Docker and Kubernetes, enhancing application scalability and maintainability.",
+        "Utilized AWS services (EC2, S3, CloudFront, Route 53) for deployment, content delivery, and DNS management.",
+        "Integrated AWS RDS for database management with high availability and automated backups.",
+        "Implemented serverless architecture with AWS Lambda to handle asynchronous tasks, reducing operational costs.",
+        "Developed real-time chat functionality using Firebase Realtime Database and WebSockets for enhanced communication.",
+        "Enhanced frontend performance using Web Vitals monitoring and lazy loading for improved UX.",
+        "Led the migration from monolithic architecture to microservices, significantly improving system scalability.",
+        "Established CI/CD pipelines using Jenkins and AWS CodePipeline for automated testing and continuous delivery.",
+        "Performed database migrations for seamless data transitions and schema updates, improving stability.",
+        "Created and managed cron jobs to automate routine backend tasks, enhancing operational efficiency."
+      ]
+    },
+    {
+      role: "Jr. Web Developer",
+      company: "GrowIt Labs",
+      companylogo: require("./assets/images/growit.jpeg"),
+      date: "Mar 2017 - Jan 2019",
+      desc: "Developed and maintained a React-based shopping website with a focus on responsive and user-friendly interfaces.",
+      descBullets: [
+        "Utilized Material UI to design and implement consistent, modern, and intuitive UI components.",
+        "Deployed the application using AWS EC2 for hosting and RDS for database management, ensuring scalable and reliable infrastructure.",
+        "Collaborated closely with clients to gather requirements, incorporate feedback, and ensure alignment with business goals.",
+        "Integrated Discount API to dynamically apply promotional discounts during checkout.",
+        "Developed and implemented a Product Refund API, streamlining customer returns and processing.",
+        "Enhanced the customer feedback page by adding filtering functionality based on user ratings.",
+        "Optimized frontend performance using lazy loading and code splitting for faster page loads.",
+        "Followed Agile methodologies, participating in sprints, stand-ups, and retrospectives for continuous improvement.",
+        "Created and managed cron jobs to automate routine backend tasks like data synchronization and backups."
       ]
     }
   ]
-
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
