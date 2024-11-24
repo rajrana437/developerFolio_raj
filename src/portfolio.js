@@ -193,7 +193,7 @@ const workExperiences = {
       descBullets: [
         "Developed cross-platform apps with React Native, integrating Redux for state management and Redux-Saga for handling side effects.",
         "Utilized TypeScript for enhanced scalability and maintainability.",
-        "Collaborated with backend developers for RESTful API and GraphQL integration.",
+        "Collaborated with backend developers for RESTful API integration.",
         "Conducted unit and integration tests using Jest and React Testing Library for robust app performance.",
         "Integrated AWS Amplify for seamless authentication, data storage, and push notifications.",
         "Worked with Firebase Cloud Messaging for real-time notifications and enhanced user engagement.",
@@ -206,10 +206,10 @@ const workExperiences = {
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
       date: "Feb 2019 - Aug 2022",
-      desc: "Led development of CRM project using React.js, Node.js, GraphQL, and microservices architecture to deliver scalable, high-performing applications.",
+      desc: "Led development of CRM project using React.js, Node.js, and microservices architecture to deliver scalable, high-performing applications.",
       descBullets: [
-        "Spearheaded frontend and backend development for a dynamic CRM project, improving SEO with server-side rendering using React.js and Next.js.",
-        "Built and optimized scalable RESTful and GraphQL APIs using Node.js, Express.js, and Sequelize with MySQL.",
+        "Led frontend and backend development for a dynamic CRM project, improving SEO with server-side rendering using React.js and Next.js.",
+        "Built and optimized scalable RESTful APIs using Node.js, Express.js, and Sequelize with MySQL.",
         "Designed and implemented secure authentication systems using OAuth2 and JWT for token-based authentication.",
         "Introduced microservices architecture using Docker and Kubernetes, enhancing application scalability and maintainability.",
         "Utilized AWS services (EC2, S3, CloudFront, Route 53) for deployment, content delivery, and DNS management.",
