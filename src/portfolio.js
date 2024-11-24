@@ -260,6 +260,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/quicksurvey.png"), // Add appropriate image path
+      projectName: "QuickSurvey",
+      projectDesc: "QuickSurvey is a dynamic survey creation and management platform offering real-time insights.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://quicksurvey.vercel.app/en/" 
+        },
+        {
+          name: "Visit Github",
+          url: "https://github.com/rajrana437/quicksurvey" 
+        }
+      ]
+    },
+    {
       image: require("./assets/images/surveyBooker.jpeg"),
       projectName: "Survey Booker",
       projectDesc: "Survey Booker is ISO 27001 Information Management Security certified as well as certified carbon neutral.",
@@ -285,6 +300,7 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
