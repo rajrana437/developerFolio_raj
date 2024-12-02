@@ -154,15 +154,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud",
       progressPercentage: "60%"
     }
   ],
@@ -232,7 +232,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/quicksurvey.png"), // Add appropriate image path
+      image: require("./assets/images/quickSurvey.gif"), // Add appropriate image path
       projectName: "QuickSurvey",
       projectDesc: "QuickSurvey is a dynamic survey creation and management platform offering real-time insights.",
       footerLink: [
