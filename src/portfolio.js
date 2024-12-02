@@ -259,7 +259,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/aims.avif"),
+      image: require("./assets/images/aim.gif"),
       projectName: "AIMS",
       projectDesc: "Press-on nails that can be instantly customized from a mobile app",
       footerLink: [
