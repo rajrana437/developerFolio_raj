@@ -175,11 +175,11 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "React Native Developer Intern",
-      company: "AIM Colours",
-      companylogo: require("./assets/images/aims.avif"),
-      date: "Jan 2023 - Mar 2023",
-      desc: "Collaborated on beauty tech solutions, delivering cross-platform mobile apps with React Native, Redux, and Redux-Saga.",
+      role: "Principal Full Stack Engineer",
+      company: "FullStack Labs",
+      companylogo: require("./assets/images/fullStack.png"),
+      date: "March 2024 - Present",
+      desc: "Led a team of developers to build a scalable chatbot platform, maintained AWS infrastructure, and managed tasks using Jira, enabling real-time customer support through LLM-based solutions.",
       descBullets: []
     },
     {
