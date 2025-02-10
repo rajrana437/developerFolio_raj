@@ -174,14 +174,14 @@ const techStack = {
 const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Principal Full Stack Engineer",
-    //   company: "FullStack Labs",
-    //   companylogo: require("./assets/images/fullStack.png"),
-    //   date: "March 2024 - Present",
-    //   desc: "Led a team of developers to build a scalable chatbot platform, maintained AWS infrastructure, and managed tasks using Jira, enabling real-time customer support through LLM-based solutions.",
-    //   descBullets: []
-    // },
+    {
+      role: "Principal Full Stack Engineer",
+      company: "FullStack Labs",
+      companylogo: require("./assets/images/fullStack.png"),
+      date: "March 2024 - December 2024",
+      desc: "Led a team of developers to build a scalable chatbot platform, maintained AWS infrastructure, and managed tasks using Jira, enabling real-time customer support through LLM-based solutions.",
+      descBullets: []
+    },
     {
       role: "Full Stack Developer",
       company: "iPangram",
