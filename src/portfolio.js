@@ -178,12 +178,12 @@ const workExperiences = {
       role: "Principal Full Stack Engineer",
       company: "FullStack Labs",
       companylogo: require("./assets/images/fullStack.png"),
-      date: "July 2024 - December 2024",
+      date: "May 2024 - Apr 2025",
       desc: "Led a team of developers to build a scalable chatbot platform, maintained AWS infrastructure, and managed tasks using Jira, enabling real-time customer support through LLM-based solutions.",
       descBullets: []
     },
     {
-      role: "React Native Developer Intern",
+      role: "React Native Developer Co-Op",
       company: "AIM Colours",
       companylogo: require("./assets/images/aims.avif"),
       date: "Jan 2023 - Mar 2023",
@@ -194,7 +194,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
-      date: "Jan 2020 - Aug 2022",
+      date: "Feb 2021 - Aug 2022",
       desc: "Led development of CRM project using React.js, Node.js, and microservices architecture to deliver scalable, high-performing applications.",
       descBullets: []
     },
@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Web Developer Intern",
       company: "GrowIt Labs",
       companylogo: require("./assets/images/growit.jpeg"),
-      date: "January 2020 - April 2020",
+      date: "Dec 2019 - Jan 2021",
       desc: "Developed and maintained a React-based shopping website with a focus on responsive and user-friendly interfaces.",
       descBullets: []
     }
