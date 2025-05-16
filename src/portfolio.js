@@ -183,14 +183,6 @@ const workExperiences = {
       descBullets: []
     },
     {
-      role: "React Native Developer Co-Op",
-      company: "AIM Colours",
-      companylogo: require("./assets/images/aims.avif"),
-      date: "Jan 2023 - Mar 2023",
-      desc: "Collaborated on beauty tech solutions, delivering cross-platform mobile apps with React Native, Redux, and Redux-Saga.",
-      descBullets: []
-    },
-    {
       role: "Full Stack Developer",
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
