@@ -186,7 +186,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "iPangram",
       companylogo: require("./assets/images/ipangram.webp"),
-      date: "Feb 2021 - Aug 2022",
+      date: "Feb 2021 - March 2023",
       desc: "Led development of CRM project using React.js, Node.js, and microservices architecture to deliver scalable, high-performing applications.",
       descBullets: []
     },
